@@ -1,0 +1,34 @@
+{
+  "name": "travis-calc-kata",
+  "version": "0.0.0",
+  "description": "travis-calc-kata\r ================",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skush/travis-calc-kata.git"
+  },
+  "keywords": [
+    "travis",
+    "calculator",
+    "kata"
+  ],
+  "author": "skush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skush/travis-calc-kata/issues"
+  },
+  "homepage": "https://github.com/skush/travis-calc-kata",
+  "dependencies": {
+    "mocha": "~1.17.0",
+    "should": "~3.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.0"
+  }
+}
